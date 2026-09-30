@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About FitSquad Hub</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="hero-section">
+
+            <h1 class="display-5 fw-bold text-white"
+                th:text="${pageTitle}">
+                Fitness Hub
+            </h1>
+
+            <p class="lead text-secondary">
+                Fitness Hub brings people together through shared workout goals, friendly challenges, and a supportive fitness community.
+            </p>
+
+            <p class="text-secondary">
+                Track your workouts, complete community challenges, and gain experience as you build consistency and reach new milestones.
+            </p>
+
+            <p class="text-secondary">
+                Even if you're just getting started or looking for a greater challenege, choose from many difficulties to train harder!
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
